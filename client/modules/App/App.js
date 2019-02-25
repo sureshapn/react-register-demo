@@ -5,7 +5,6 @@ import { ToastContainer } from 'react-toastify';
 
 // Import Style
 import styles from './App.css';
-import 'react-toastify/dist/ReactToastify.css';
 
 // Import Components
 import Helmet from 'react-helmet';

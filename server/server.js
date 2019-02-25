@@ -93,6 +93,7 @@ const renderFullPage = (html, initialState) => {
         ${isProdMode ? `<link rel='stylesheet' href='${assetsManifest['/app.css']}' />` : ''}
         <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'/>
         <link href='/assets/bootstrap.min.css' rel='stylesheet' type='text/css'/>
+        <link href='/assets/custom.css' rel='stylesheet' type='text/css'/>
       </head>
       <body>
         <div id="root">${process.env.NODE_ENV === 'production' ? html : `<div>${html}</div>`}</div>
